@@ -1,9 +1,11 @@
-# main.py
-def saluer(nom):
-    return f"Bonjour, {nom} !"
+from utils import liste_premiers
+
+def afficher():
+    max_val = 50
+    premiers = liste_premiers(max_val)
+    print(f"Nombres premiers jusqu'à {max_val} :")
+    print(premiers)
 
 if __name__ == "__main__":
-    utilisateur = "Alice"
-    message = saluer(utilisateur)
-    print(message)
+    afficher()
 
