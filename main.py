@@ -1,6 +1,6 @@
 from api import fetch_joke
 from analysis import analyse_joke
-
+g
 def main():
     joke = fetch_joke()
     print("Blague récupérée :")
