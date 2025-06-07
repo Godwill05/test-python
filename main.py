@@ -7,7 +7,7 @@ def calculer_moyenne_ponderee(matieres):
         total_points += note * coeff
         total_coefficients += coeff
     return total_points / total_coefficients
-
+ooo
 def afficher_resultats(matieres, moyenne):
     print("Résultats des matières :")
     print("{:<15} {:<10} {:<12}".format("Matière", "Note", "Coefficient"))
